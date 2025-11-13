@@ -26,7 +26,7 @@ public class ProductSalesApp2 extends JFrame {
     };
     private String[] products = {"Microphone", "Speakers", "Mixing Desk"};
 
-    // ✅ Fixed constructor syntax
+    //  Fixed constructor syntax
     public ProductSalesApp2() {
         setTitle("Product Sales Application");
         setSize(550, 500);
@@ -144,7 +144,7 @@ public class ProductSalesApp2 extends JFrame {
         yearsLabel.setText("Years Processed: ");
     }
 
-    // ✅ Fixed main method reference
+    //  Fixed main method reference
     public static void main(String[] args) {
         new ProductSalesApp2();
     }
